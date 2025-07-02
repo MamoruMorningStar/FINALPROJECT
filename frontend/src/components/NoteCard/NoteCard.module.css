@@ -1,0 +1,79 @@
+.card {
+  background: var(--bg);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  padding: 24px;
+  margin-bottom: 24px;
+  max-width: 100%;
+  word-break: break-word;
+  color: var(--text);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date {
+  color: #888;
+  font-size: 0.9em;
+  margin-left: 12px;
+}
+.content {
+  margin-top: 12px;
+  white-space: pre-wrap;
+  font-size: 1.1em;
+  color: var(--text);
+}
+.commentsSection {
+  margin-top: 20px;
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+.commentsList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+.commentItem {
+  margin-bottom: 6px;
+  font-size: 0.98em;
+  color: var(--text);
+}
+.commentUser {
+  font-weight: bold;
+  color: var(--accent);
+  margin-right: 6px;
+}
+.commentDate {
+  color: #aaa;
+  font-size: 0.85em;
+  margin-left: 8px;
+}
+.commentForm {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.commentInput {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  font-size: 1em;
+  background: var(--bg);
+  color: var(--text);
+}
+.noComments {
+  color: #888;
+  font-size: 0.95em;
+  margin-bottom: 8px;
+}
+@media (max-width: 900px) {
+  .card {
+    padding: 12px;
+  }
+  .commentsSection {
+    padding: 8px 4px;
+  }
+} 

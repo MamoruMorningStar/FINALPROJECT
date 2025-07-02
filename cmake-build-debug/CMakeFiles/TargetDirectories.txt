@@ -1,0 +1,3 @@
+C:/Users/SpeedFire/CLionProjects/FINALPROJECT/cmake-build-debug/CMakeFiles/FINALPROJECT.dir
+C:/Users/SpeedFire/CLionProjects/FINALPROJECT/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/SpeedFire/CLionProjects/FINALPROJECT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
